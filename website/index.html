@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="weatherInterface">
+
+        <p id="title"> Simple Weather Journal</p>
+
+        <form action=""> 
+
+            <div class="searchBar">
+                <input type="text" placeholder="Zip Code..." id="zip" maxlength="5">
+                <button id="generate">Search</button>
+            </div>
+
+            <input type="text" placeholder="How are you feeling..." id="feelings">
+
+        </form>
+
+        <div class="weatherDisplay">
+            
+            <div class="entryHolder">
+
+                <div class="location" id ="location">--</div>
+                <div id="date"></div>
+
+                <div class="focusDisplay">
+                    <!-- <h1 id= "temperature"> -- &deg;C</h2> -->
+                    <div class="icon" id="icon"><img src="Weather Icons/def.svg" alt="icon"></div>
+                    <h1 id= "temperature"> -- &deg;C</h2>
+                </div>
+
+                <h2 class="description" id="content">--</h2>
+
+            </div>
+
+            <div class="secondaryArea">
+
+                <p class="realFeel" id="realFeel">--</p>
+                <p class="userFeeling" id="userFeeling">--</p>
+
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+
+<script src="app.js"></script>
+
+</html>
