@@ -23,7 +23,6 @@ Udacity Front End project 3 - Weather Journal App
 <a href="https://nodejs.org/en/"><b>Node</b></a> is required to run this program.
 
 ### Prerequisites
-This is an example of things you need to use and the software to install them.
 
 npm
 ```sh
