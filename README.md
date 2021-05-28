@@ -15,6 +15,7 @@ Udacity Front End project 3 - Weather Journal App
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img src="screenshot/UI.png" alt="Weather Journal UI" width="389" height="auto">
 
 
 ## Getting Started
